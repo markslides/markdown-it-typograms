@@ -1,0 +1,33 @@
+{
+    "name": "@markslides/markdown-it-typograms",
+    "description": "Google Typograms plugin for markdown-it",
+    "version": "0.1.0",
+    "main": "dist/index.js",
+    "keywords": [
+        "markdown",
+        "markdown-it",
+        "typograms"
+    ],
+    "author": "Soaple <inje@soaple.io>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/markslides/markdown-it-typograms.git"
+    },
+    "bugs": {
+        "url": "https://github.com/markslides/markdown-it-typograms/issues"
+    },
+    "homepage": "https://github.com/markslides/markdown-it-typograms#readme",
+    "scripts": {
+        "build": "tsup src/index.ts --dts --format esm,cjs",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "publish:public": "rm -rf dist && npm install && npm run build && npm publish --access public"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "@types/markdown-it": "^13.0.0",
+        "markdown-it": "^13.0.1",
+        "tsup": "^7.2.0",
+        "typescript": "^5.2.2"
+    }
+}
