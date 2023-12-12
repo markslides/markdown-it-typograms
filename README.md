@@ -1,3 +1,10 @@
+## ⚠️ This repository is merged to [markslides monorepo](https://github.com/markslides/markslides)
+
+## 🔗 Link to `markdown-it-typograms` package
+https://github.com/markslides/markslides/tree/main/packages/markdown-it-typograms
+
+---
+
 # markdown-it-typograms
 Google Typograms plugin for markdown-it
 
